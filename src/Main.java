@@ -96,9 +96,9 @@ public class Main {
     }
     public static void task8() {
         System.out.println("Задача 8");
-        int t = 2023;
-        int lastYear = t -200 ;
-        int futureYear =t+ 100;
+        int currentYear = 2023;
+        int lastYear = currentYear -200 ;
+        int futureYear =currentYear+ 100;
         for (int i = lastYear; i < futureYear;i++) {
             if (i % 79==0)
 
